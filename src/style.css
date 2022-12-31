@@ -1,0 +1,616 @@
+body {
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+
+  }
+
+/*Header Styling */
+#kalashimage{
+    width:70px;
+    height:70px;
+    margin-left: 5px;
+}
+.KalashnameBox{
+    display:flex;
+    flex-direction: row;
+}
+#Remedy_ganga{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 500;
+    align-self: center;
+    margin-left: 10px;
+    color: #95060B;
+}
+.link{
+    display:flex;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FDBB11;
+    margin-left: 12px;
+
+}
+.HeaderBox{
+    display: flex;
+    position:relative;
+    justify-content: space-between;
+    background: #61A6C5;
+    width: 100%;
+    flex-wrap: wrap;
+}
+li{
+    margin-right: 20px;
+}
+a:link{
+    text-decoration: none;
+}
+
+a:Visited{
+    text-decoration: underline;
+}
+.HeaderBox ul{
+    list-style: none;
+}
+    
+/* Header Middle Part */
+
+#seaWaveImage{
+    width:100%;
+    height:50%;
+    display: flex;
+    justify-content: center;
+    left:0px;
+    right:0px;
+}
+
+#lordShivaImage{
+    height: 280px;
+    width: 300px;
+    margin-top: 240px;
+}
+
+.shivaBox{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.middleImage{
+        background-image: url('./Images/Header/seaWave.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 580px;
+   }
+
+   /* triangle.jsx styling */
+#omImage{
+    width: 140px;
+    height:140px;
+}
+.triangleBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #2B65EC;
+}
+#textmantra{
+    display:flex;
+    font-family: 'Martel';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    color: #FFD700;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+#textmantra1{
+    display:flex;
+    font-family: 'Martel';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 40px;
+    color: #FFD700;
+    flex-wrap: wrap;
+    
+}
+
+.triangleText2Box{
+    background-color: #2B65EC;
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.triangleText1Box{
+    background-color: #2B65EC;
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+/* Headerabout styling */
+
+.HeaderaboutBox1{
+    width:50%;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient( #AD0502 0%, #E33101 100%);
+    padding-top: 40px;
+}
+.HeaderaboutBox1Text{
+    display: flex;
+    justify-content: center;
+    margin-left: 116px;
+    margin-right: 116px;
+    
+
+}
+#HeaderaboutText1{
+    font-family: Martel;
+    font-size: 44px;
+    font-weight: 300;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: center;
+    flex-wrap: wrap;
+    color:#FFD700
+}
+.HeaderaboutBox2{
+        width: 50%;
+        background-image: url('./Images/Header/Ganga_arati.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+}
+.Headeraboutcontainer{
+    display: flex;
+    flex-direction: row;
+}
+
+/*Achyra.jsx */
+.AchraImageBox{
+        display: flex;
+        width: 50%;
+        background-image: url('./Images/Header/Achraya_jii.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        flex-wrap: wrap;
+}
+.AchraBox{
+    display: flex;
+    flex-direction: row;
+}
+
+.AchraInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 140px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.AchraInfoBox{
+    width: 50%;
+}
+#AcharayaName{
+    font-family: HelveticaNeue;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+#AcharayaName1{
+    font-family: HelveticaNeue;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 16px;
+    margin-left: 12px;
+}
+#AchraEducationText{
+    font-family: HelveticaNeue;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    display: flex;
+    flex-wrap: wrap;
+}
+.AchraInfoTextBox{
+    display: flex;
+    flex-wrap: wrap;
+    margin-Left:30px;
+    margin-right:30px
+}
+
+/* Kundali.jsx */
+#KundaliText{
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 75px;
+    text-align: center;
+}
+.KundaliBox{
+    background-color:#FFF5DD;
+    
+}
+.extraBox{
+    height: 200px;
+    width: 200px;
+    border-radius: 250px;
+    background-color: #FDBB11;
+}
+#KudaliItemImage{
+    display: flex;
+    height:140px;
+    padding: 30px;
+
+}
+#KundaliName{
+    font-family: HelveticaNeue;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.KundaliItemBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* Puja.jsx */
+.PujaItemImageBox{
+    width: 220px;
+    height: 220px;
+    left: 118px;
+    top: 156px;
+    background-color: #FDBB11;
+    border-radius: 15px;
+}
+#PujaItemImage{
+    width: 130px;
+    height: 130px;
+    padding: 40px;
+}
+#PujaName{
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+.PujaItemsCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/*Fotter.jsx */
+.Fotter-outer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:  #2B65EC;
+    flex-wrap: wrap;
+}
+.span1{
+    font-size: 20px;
+    color:  #FDBB11;
+
+}
+
+#headingFotter{
+    color:  #FDBB11
+}
+.socialImageContainer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 45px;
+}
+#imagesocial{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    margin-left: 12px;
+}
+/* PujaDescriptionContainer */
+.PujaDescriptionContainer{
+    width: 80;
+    background: #FDBB11;
+    border-radius: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 28px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.PujaDescriptionContainer1{
+    width: 80%;
+    background: #FFF5DD;
+    border-radius: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 28px;
+    display: flex;
+    flex-direction: row;
+}
+
+#PujaDescriptionContainerImage{
+    width:100px;
+    height:100px;
+    margin-left:28px;
+    margin-top:28px;
+}
+#pujaInfoHeading{
+    margin-left: 120px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#PujaInfoPara{
+    margin-left: 120px;
+    margin-right: 120px;
+    font-size: 22px;
+    line-height: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* Service page */
+.serviceBackgroundImageBox{
+        background-image: url('./Images/Service/background.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width:100%;
+        height:300px;
+        display: flex;
+        flex-wrap: wrap;
+}
+
+
+/*About.jsx */
+
+.AboutOuterContainer{
+    background-image: url('./Images/About/Aboutbg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:100%;
+    height:300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.AchraAboutInfo{
+    width:85%;
+    margin-left:2%
+}
+#AchraAboutInfoHeading{
+    font-size: 28px;
+    font-weight: 500;
+}
+#AchraAboutInfoParagraph{
+    font-size: 20px;
+    line-height: 35px;
+    font-family: HelveticaNeue;
+    display: flex;
+    flex-wrap: wrap;
+}
+.AchraAboutInfoContainer{
+    display: flex;
+    flex-direction: row;
+}
+.AchraImageContainer{
+    background-image: url('./Images/About/Achrya.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:15%;
+    height:300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 8%;
+    margin-top: 82px;
+    margin-bottom: 6%;
+}
+
+.EducationalTextContainer{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+}
+.EducationalText{
+    width:72%;
+    margin-left: 4%;
+}
+#EducationalTextHeading{
+    font-size: 30px;
+    font-weight: 520;
+}
+#EducationalTextPara{
+    font-size: 20px;
+    line-height: 35px;
+    font-family: HelveticaNeue;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+.EducationQualificationOuterBox{
+    display: flex;
+    flex-direction: row;
+}
+
+#astrologyImage{
+    margin-top: 220px;
+    margin-right: 72px;
+    width:170px;
+    height:170px
+}
+
+/* Payment */
+.PaymentBackgroundImageCOntainer{
+    background-image: url('./Images/Payment/paymentbg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:100%;
+    height:300px;
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+#PaymentMiddlePara{
+    text-align: center;
+    font-size: 25px;
+}
+#QrImage{
+    width:60%;
+}
+.QrPartContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+}
+.QrImageContainer{
+    display: flex;
+    justify-content: center;
+}
+#AccountHolderName{
+    text-align: center;
+    font-size: 22px;
+}
+.verticalLine{
+    border-left: 2px solid black;
+    height: 440px;
+    margin-top: 60px;
+    margin-left: -30%;
+}
+.PaymentQrRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: -14%;
+}
+.PaymentMiddleRightPart{
+    display: flex;
+    flex-direction: column;
+    margin-left: -30%;
+    margin-top: 2%;
+}
+.PaymentMiddleRightPartBottom{
+    margin-top: 30%;
+}
+.PaymentMiddleContainer{
+    margin-bottom: 10%;
+}
+#PaymentMiddleRightPartToplink{
+    color:#2B65EC
+}
+
+
+/* Media Query */
+
+@media only screen and (max-width: 1050px) {
+    body{
+        overflow-x: hidden;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .HeaderBox{
+        display: flex;
+        position:relative;
+        justify-content: space-around;
+        background: #61A6C5;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .link{
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .KalashnameBox{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    #kalashimage{
+        width:40px;
+        height:40px;
+    }
+    #Remedy_ganga{
+        font-size: 18px;
+    }
+    .HeaderBox{
+        width: 100%;
+    }
+    /*Home Siva bagwan wala */
+    #lordShivaImage{
+        height: 250px;
+        width: 140px;
+        position: absolute;
+        right: 0px;
+        bottom: 160px;
+    }
+  }
+
+  @media only screen and (max-width: 415px)and (max-height:900px)
+  {
+    #lordShivaImage{
+        height: 250px;
+        width:140px;
+        margin-bottom: 80px;
+    }
+  }
+
+
+  @media only screen and (max-width: 415px)and (max-height:670px)
+  {
+    #lordShivaImage{
+        height: 250px;
+        width:140px;
+        margin-top: -240px;
+    }
+  }
+
+
+
