@@ -16,7 +16,7 @@ function PujaDescription() {
     <div className='PujaDescriptionOuterBox'>
 
         <div data-aos="fade-left"  data-aos-offset="300" className='PujaDescriptionContainer'>
-            <div>
+            <div className='PujaDescriptionImageBox'>
             <img id ="PujaDescriptionContainerImage"src={maaDurga} alt="error" />
             </div>
             <div classname="PujaDescriptionContainerInfo">
@@ -31,7 +31,7 @@ function PujaDescription() {
 
 
         <div data-aos="fade-left"  data-aos-offset="300"  className='PujaDescriptionContainer1'>
-            <div>
+            <div className='PujaDescriptionImageBox'>
             <img id ="PujaDescriptionContainerImage"src={Drum} alt="error" />
             </div>
             <div classname="PujaDescriptionContainerInfo">
@@ -46,7 +46,7 @@ function PujaDescription() {
 
 
         <div data-aos="fade-left"  data-aos-offset="300"  className='PujaDescriptionContainer'>
-            <div>
+            <div className='PujaDescriptionImageBox'>
             <img id ="PujaDescriptionContainerImage"src={Shivling} alt="error" />
             </div>
             <div classname="PujaDescriptionContainerInfo">
@@ -64,7 +64,7 @@ function PujaDescription() {
 
 
         <div data-aos="fade-left"  data-aos-offset="300"  className='PujaDescriptionContainer1'>
-            <div>
+            <div className='PujaDescriptionImageBox'>
             <img id ="PujaDescriptionContainerImage"src={Fire} alt="error" />
             </div>
             <div classname="PujaDescriptionContainerInfo">
@@ -80,7 +80,7 @@ function PujaDescription() {
 
 
         <div data-aos="fade-left"  data-aos-offset="300" className='PujaDescriptionContainer'>
-            <div>
+            <div className='PujaDescriptionImageBox'>
             <img id ="PujaDescriptionContainerImage"src={Snake} alt="error" />
             </div>
             <div classname="PujaDescriptionContainerInfo">
@@ -96,7 +96,7 @@ function PujaDescription() {
 
 
         <div data-aos="fade-left"  data-aos-offset="300" className='PujaDescriptionContainer1'>
-            <div>
+            <div className='PujaDescriptionImageBox'>
             <img id ="PujaDescriptionContainerImage"src={Shiva} alt="error" />
             </div>
             <div classname="PujaDescriptionContainerInfo">
@@ -113,7 +113,7 @@ function PujaDescription() {
 
 
         <div data-aos="fade-left"  data-aos-offset="300" className='PujaDescriptionContainer'>
-            <div>
+            <div className='PujaDescriptionImageBox'>
             <img id ="PujaDescriptionContainerImage"src={Navgrah} alt="error" />
             </div>
             <div classname="PujaDescriptionContainerInfo">
@@ -127,7 +127,7 @@ function PujaDescription() {
 
 
         <div data-aos="fade-left"  data-aos-offset="300" className='PujaDescriptionContainer1'>
-            <div>
+            <div className='PujaDescriptionImageBox'>
             <img id ="PujaDescriptionContainerImage"src={Fire} alt="error" />
             </div>
             <div classname="PujaDescriptionContainerInfo">
@@ -141,7 +141,7 @@ function PujaDescription() {
 
 
         <div data-aos="fade-left"  data-aos-offset="300" className='PujaDescriptionContainer'>
-            <div>
+            <div className='PujaDescriptionImageBox'>
             <img id ="PujaDescriptionContainerImage"src={Book} alt="error" />
             </div>
             <div classname="PujaDescriptionContainerInfo">
@@ -155,7 +155,7 @@ function PujaDescription() {
 
 
         <div data-aos="fade-left"  data-aos-offset="300" className='PujaDescriptionContainer1'>
-            <div>
+            <div className='PujaDescriptionImageBox'>
             <img id ="PujaDescriptionContainerImage"src={Yantra} alt="error" />
             </div>
             <div classname="PujaDescriptionContainerInfo">

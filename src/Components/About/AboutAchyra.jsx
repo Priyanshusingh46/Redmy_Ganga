@@ -41,7 +41,7 @@ function AboutAchyra() {
         </p>
 
       </div>
-      <div data-aos="fade-left"  data-aos-offset="300" className="AchraImageContainer">
+      <div  className="AchraImageContainer">
 
       </div>
     </div>

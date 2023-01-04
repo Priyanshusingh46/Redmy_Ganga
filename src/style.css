@@ -158,8 +158,6 @@ a:Visited{
     justify-content: center;
     margin-left: 116px;
     margin-right: 116px;
-    
-
 }
 #HeaderaboutText1{
     font-family: Martel;
@@ -386,6 +384,9 @@ a:Visited{
     display: flex;
     flex-wrap: wrap;
 }
+.PujaDescriptionOuterBox{
+    margin-top: 6%;
+}
 
 
 /* Service page */
@@ -447,18 +448,27 @@ a:Visited{
     margin-bottom: 6%;
 }
 
-.EducationalTextContainer{
+/* About Education */
+
+.EducationalTextContainer1{
     display: flex;
     flex-direction: row;
     margin-left: 10%;
 }
-.EducationalText{
-    width:72%;
-    margin-left: 4%;
+#VedasImage{
+    width:110px;
+    height: 110px;
+
 }
+
+.EducationalText{
+    margin-left: 3%;
+    width:65%
+}
+
 #EducationalTextHeading{
-    font-size: 30px;
-    font-weight: 520;
+    font-size: 28px;
+    font-weight: 500;
 }
 #EducationalTextPara{
     font-size: 20px;
@@ -466,21 +476,30 @@ a:Visited{
     font-family: HelveticaNeue;
     display: flex;
     flex-wrap: wrap;
-
 }
 
-
-.EducationQualificationOuterBox{
+/* 2nd education part */
+.EducationalTextContainer2{
     display: flex;
     flex-direction: row;
+    margin-left: 18%;
+    margin-bottom: 4%;
+}
+#EducationalTextPara2{
+    font-size: 20px;
+    line-height: 35px;
+    font-family: HelveticaNeue;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
+#astrologyImage{
+    margin-right: 100px;
+    width: 140px;
+    height: 140px;
+    margin-top: 80px;
 }
 
-#astrologyImage{
-    margin-top: 220px;
-    margin-right: 72px;
-    width:170px;
-    height:170px
-}
 
 /* Payment */
 .PaymentBackgroundImageCOntainer{
@@ -543,8 +562,171 @@ a:Visited{
     color:#2B65EC
 }
 
+/*contact Section */
+.emaillocationwaladiv{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    width:75%
+}
+
+#ContactMiddlePara{
+    margin-left: 4%;
+    display:flex;
+    flex-wrap: wrap;
+    font-size:25px;
+    margin-top: 3px;
+    color: #FFFFFF;
+}
+
+.ContactMiddleFirstPart{
+    margin-top: 5%;
+}
+
+.ContactMiddleOuterdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url('./Images/Contact/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.ContactForm{
+    margin-top: 6%;
+    margin-left: -5%;
+}
+#contactformname{
+    font-size: 28px;
+    color: #FFFFFF;
+}
+#ContactMiddleImage{
+        width:28px;
+        height:28px
+}
+#textinput{
+    width: 600px;
+    height: 162px;
+    border-radius: 7px;
+    box-shadow: 5px 8px;
+    
+}
+#textinput1{
+    width: 600px;
+    height: 56px;
+    border-radius: 7px;
+    box-shadow: 5px 8px;
+}
+
+.senddivform{
+    display: flex;
+    width:30%;
+    background-color:  #95060B;
+    justify-content: center;
+    margin-top: 10%;
+   /* margin-left: 34%;*/
+    border-radius: 10px;
+    margin-bottom: 3%;
+    box-shadow: 5px 8px;
+}
+
+#sendbutton{
+    color: #FFFFFF;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 
 /* Media Query */
+@media only screen and (max-width: 1200px) {
+    body {
+        overflow-x: hidden;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        width: 100%;
+    
+      }
+    .QrPartContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .PaymentQrRow{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .PaymentMiddleRightPart{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10%;
+    }
+    .verticalLine{
+        display: none;
+    }
+
+    #AccountHolderName{
+        text-align: center;
+        font-size: 18px;
+    }
+
+    #PaymentMiddlePara{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    /* fotter section */
+
+    .fotteraddress{
+        margin-left: 5%;
+        margin-right: 3%;
+    }
+
+    #headingFotter {
+        color: #FDBB11;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    /* Contact form */
+    .ContactMiddleOuterdiv{
+        display: flex;
+        flex-direction: column;
+    }
+    .emaillocationwaladiv{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 2%;
+        margin-left: 5%;
+    }
+    .ContactForm{
+        margin-top: 6%;
+        margin-left: 5%;
+    }
+    .senddivform{
+        display: flex;
+        width:30%;
+        background-color:  #95060B;
+        margin-top: 10%;
+        border-radius: 10px;
+        margin-bottom: 3%;
+        box-shadow: 5px 8px;
+        margin-left: 1%;
+    }
+    #textinput1{
+        margin-bottom: 10px;
+    }
+    #textinput{
+        margin-bottom: 8px;
+    }
+
+}
 
 @media only screen and (max-width: 1050px) {
     body{
@@ -591,26 +773,483 @@ a:Visited{
         right: 0px;
         bottom: 160px;
     }
-  }
 
-  @media only screen and (max-width: 415px)and (max-height:900px)
-  {
-    #lordShivaImage{
-        height: 250px;
-        width:140px;
-        margin-bottom: 80px;
+    /* About part */
+    .AchraImageContainer{
+        background-image: url('./Images/About/Achrya.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        width: 17%;
+        height: 210px;
+        flex-wrap: wrap;
+        margin-left: 3%;
+        margin-top: 170px;
+        margin-bottom: 6%;
+        margin-right: 3%;
     }
-  }
-
-
-  @media only screen and (max-width: 415px)and (max-height:670px)
-  {
-    #lordShivaImage{
-        height: 250px;
-        width:140px;
-        margin-top: -240px;
+    .AchraAboutInfo {
+        width: 65%;
+        margin-left: 2%;
     }
+    #AchraAboutInfoParagraph{
+        font-size: 18px;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    /* About Education */
+
+.EducationalTextContainer1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+}
+    #VedasImage{
+    width:80px;
+    height: 80px;
+
+}
+
+.EducationalText{
+    margin-left: 3%;
+    width:65%
+}
+
+#EducationalTextHeading{
+    font-size: 26px;
+    font-weight: 500;
+}
+#EducationalTextPara{
+    font-size: 18px;
+    line-height: 35px;
+    font-family: HelveticaNeue;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* 2nd education part */
+.EducationalTextContainer2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+    margin-bottom: 4%;
+}
+#EducationalTextPara2{
+    font-size: 18px;
+    line-height: 35px;
+    font-family: HelveticaNeue;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+}
+    #astrologyImage{
+    margin-right: 110px;
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+}
+}
+
+  @media only screen and (max-width: 680px){
+
+        /* Contact form */
+    .ContactMiddleOuterdiv{
+        display: flex;
+        flex-direction: column;
+    }
+    .emaillocationwaladiv{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 2%;
+        margin-left: 5%;
+    }
+    .ContactForm{
+        margin-top: 6%;
+        margin-left: 5%;
+    }
+    .senddivform{
+        display: flex;
+        width:25%;
+        background-color:  #95060B;
+        margin-top: 10%;
+        border-radius: 10px;
+        margin-bottom: 3%;
+        box-shadow: 5px 8px;
+        margin-left: 1%;
+    }
+    #textinput{
+        width:450px;
+        height:120px
+    }
+    #textinput1{
+        width:450px;
+        height:40px
+    }
+    #contactformname{
+        font-size: 20px;
+        color: #FFFFFF;
+    }
+    #ContactMiddlePara{
+        font-size: 20px;
+        color: #FFFFFF;
+    }
+    #sendbutton{
+        font-size: 18px;
+    }
+
+    /* ABout */
+    .AchraImageContainer{
+        background-image: url('./Images/About/Achrya.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 152px;
+        margin-bottom: 6%;
+        width: 200px;
+        height: 217px;
+    }
+    .AchraAboutInfo {
+        width: 64%;
+        margin-left: 2%;
+    }
+    #AchraAboutInfoHeading{
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    .EducationalTextContainer2{
+        display: flex;
+        flex-direction: row;
+        margin-left: 24%;
+        margin-bottom: 4%;
+    }
+    #EducationalTextPara2{
+        font-size: 16px;
+        line-height: 35px;
+        font-family: HelveticaNeue;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+        #astrologyImage{
+        margin-right: 110px;
+        width: 100px;
+        height: 100px;
+        margin-top: 100px;
+    }
+
+    #EducationalTextHeading{
+        font-size: 24px;
+        font-weight: 500;
+    }
+    #EducationalTextPara{
+        font-size: 16px;
+        line-height: 35px;
+        font-family: HelveticaNeue;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
   }
 
 
+@media only screen and (max-width: 541px){
+    body{
+        overflow-x: hidden;
+        padding: 0;
+        margin: 0;
+    }
+    .KundaliItemBox{
+        display: flex;
+        flex-direction: column;
+        margin-left: 12%;
+    }
+    .extraBox{
+        margin-left: 12%;
+    }
+    #KundaliName{
+        margin-left: -15%;
+    }
+    #KundaliText{
+        font-size: 30px;
+    }
+
+    .PujaDescriptionContainer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .PujaDescriptionContainer1{
+        display: flex;
+        flex-direction: column;
+    }
+   #pujaInfoHeading{
+    font-size: 22px;
+    margin-left: 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   }
+   #PujaInfoPara{
+    margin-left: 12px;
+    margin-right: 12px;
+    font-size: 22px;
+    line-height: 25px;
+    display: flex;
+    flex-wrap: wrap;
+   }
+   #PujaDescriptionContainerImage{
+    width:100px;
+    height:100px;
+    display: flex;
+    justify-content: center;
+   }
+   .PujaDescriptionOuterBox{
+        margin-top: 15%;
+   }
+   .PujaDescriptionImageBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   }
+
+   /* footer*/
+   .span1{
+    margin-left: 0;
+   }
+
+   /*contact form */
+
+   .ContactMiddleOuterdiv{
+    display: flex;
+    flex-direction: column;
+}
+.emaillocationwaladiv{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2%;
+    margin-left: 5%;
+}
+.ContactForm{
+    margin-top: 6%;
+    margin-left: 5%;
+}
+.senddivform{
+    display: flex;
+    width:25%;
+    background-color:  #95060B;
+    margin-top: 10%;
+    border-radius: 10px;
+    margin-bottom: 3%;
+    box-shadow: 5px 8px;
+    margin-left: 1%;
+}
+#textinput{
+    width:370px;
+    height:80px;
+    margin-bottom: 10px;
+}
+#textinput1{
+    width:370px;
+    height:25px;
+    margin-bottom: 10px;
+}
+#contactformname{
+    font-size: 16px;
+    color: #FFFFFF;
+}
+#ContactMiddlePara{
+    font-size: 16px;
+    color: #FFFFFF;
+}
+#sendbutton{
+    font-size: 15px;
+}
+
+/* About */
+   .AchraAboutInfoContainer {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.AchraImageContainer{
+    display: flex;
+    background-image: url('./Images/About/Achrya.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 180px;
+    height: 180px;
+    align-self: center;
+    border-radius: 90px;
+    flex-wrap: wrap;
+    margin-top: 6%;
+    
+}
+.AchraAboutInfo {
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#AchraAboutInfoHeading{
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#AchraAboutInfoParagraph{
+    font-size: 18px;
+    margin-left: 2%;
+    margin-right: 6%;
+}
+
+/* About Education */
+.EducationalTextContainer1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+}
+.VedasImagediv{
+    display: flex;
+    justify-content: center;
+}
+    #VedasImage{
+        width: 140px;
+        height: 140px;
+        border-radius: 70px;
+        border: 2px solid black;
+        margin-bottom: 2%;
+        box-shadow: 5px 5px 8px 5px;
+    }
+
+.EducationalText{
+    margin-left: 3%;
+    width:100%;
+    margin-right: 3%;
+
+}
+
+#EducationalTextHeading{
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+}
+#EducationalTextPara{
+    font-size: 18px;
+    line-height: 35px;
+    font-family: HelveticaNeue;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 6%;
+}
+
+/* 2nd education part */
+.EducationalTextContainer2{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 4%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+#EducationalTextPara2{
+    font-size: 18px;
+    line-height: 35px;
+    font-family: HelveticaNeue;
+    display: flex;
+    flex-wrap: wrap;
+}
+#astrologyImage{
+    width: 140px;
+    height: 140px;
+    border: 2px solid;
+    border-radius: 70px;
+    box-shadow: 5px 5px 8px 5px;
+    margin-top: 0;
+    margin-right: 0;
+}
+
+.astrologyImageContainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 4%;
+}
+
+.EducationalText2{
+    margin-left: 3%;
+    width:100%;
+    margin-right: 3%;
+}
+
+/* fotter */
+#imagesocial {
+    width: 47px;
+    height: 45px;
+    display: flex;
+    margin-left: 12px;
+}
+.socialImageContainer{
+    margin-bottom: 10%;
+}
+
+
+
+}
+
+@media only screen and (max-width: 410px){
+        /*contact form */
+
+        .ContactMiddleOuterdiv{
+            display: flex;
+            flex-direction: column;
+        }
+        .emaillocationwaladiv{
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 2%;
+            margin-left: 5%;
+        }
+        .ContactForm{
+            margin-top: 6%;
+            margin-left: 5%;
+        }
+        .senddivform{
+            display: flex;
+            width:25%;
+            background-color:  #95060B;
+            margin-top: 10%;
+            border-radius: 10px;
+            margin-bottom: 3%;
+            box-shadow: 5px 8px;
+            margin-left: 1%;
+        }
+        #textinput{
+            width:240px;
+            height:50px;
+            margin-bottom: 10px;
+        }
+        #textinput1{
+            width:240px;
+            height:18px;
+            margin-bottom: 10px;
+        }
+        #contactformname{
+            font-size: 14px;
+            color: #FFFFFF;
+        }
+        #ContactMiddlePara{
+            font-size: 14px;
+            color: #FFFFFF;
+        }
+        #sendbutton{
+            font-size: 12px;
+        }
+}
 
