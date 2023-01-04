@@ -7,18 +7,20 @@ function Triangle() {
     AOS.init(),
     <div className='triangleBox'>
         <div className='triangleText1Box'>
-        <span id="textmantra"> ॐ नमो गंगायै विश्वरुपिणी </span> <br></br>
-        <span id="textmantra"> नारायणी नमो नम:।।</span>
+        <p id="textmantra"> ॐ नमो गंगायै विश्वरुपिणी नारायणी नमो नम:।। </p>
         </div>
         <div data-aos="fade-up-right"  data-aos-offset="300"  className='omBox'>
         <img id="omImage" src={om} alt="error"/>
         </div>
         <div className='triangleText2Box'>
-            <span id="textmantra1">गंगां वारि मनोहारि मुरारिचरणच्युतं ।</span><br></br>
-            <span id="textmantra1">त्रिपुरारिशिरश्चारि पापहारि पुनातु मां ।।</span>
+            <p id="textmantra1">गंगां वारि मनोहारि मुरारिचरणच्युतं ।त्रिपुरारिशिरश्चारि पापहारि पुनातु मां ।।</p>
         </div>
     </div>
   )
 }
 
 export default Triangle
+
+/*
+
+    */

@@ -92,8 +92,8 @@ a:Visited{
 
    /* triangle.jsx styling */
 #omImage{
-    width: 140px;
-    height:140px;
+    width: 120px;
+    height:120px;
 }
 .triangleBox{
     display: flex;
@@ -120,6 +120,7 @@ a:Visited{
     font-size: 38px;
     color: #FFD700;
     flex-wrap: wrap;
+    margin-left: 2%;
     
 }
 
@@ -724,6 +725,57 @@ a:Visited{
     #textinput{
         margin-bottom: 8px;
     }
+    /* triangle */
+    #textmantra {
+        display: flex;
+        font-family: 'Martel';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 34px;
+        color: #FFD700;
+        margin-top: 40px;
+        flex-wrap: wrap;
+    }
+    #textmantra1 {
+        display: flex;
+        font-family: 'Martel';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 34px;
+        color: #FFD700;
+        flex-wrap: wrap;
+        margin-left: 2%;
+    }
+    #omImage {
+        width: 103px;
+        height: 105px;
+        margin-top: 18%;
+    }
+    /* Header About */
+    #HeaderaboutText1 {
+        font-family: Martel;
+        font-size: 32px;
+        font-weight: 300;
+        line-height: 50px;
+        letter-spacing: 0em;
+        text-align: center;
+        flex-wrap: wrap;
+        color: #FFD700;
+    }
+    .HeaderaboutBox1Text {
+        display: flex;
+        justify-content: center;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+
+    .AchraInfo {
+         margin-top: 0px;
+    }
+    #AchraEducationText {
+        font-size: 27px;
+    }
+
 
 }
 
@@ -766,11 +818,18 @@ a:Visited{
     }
     /*Home Siva bagwan wala */
     #lordShivaImage{
-        height: 239px;
-        width: 140px;
+        height: 213px;
+        width: 174px;
         position: absolute;
         right: 0px;
-        margin-top: 31%;
+        margin-top: 21%;
+    }
+    .middleImage {
+        background-image: url('./Images/Header/seaWave.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 436px;
     }
 
     /* About part */
@@ -852,14 +911,14 @@ a:Visited{
 
 /* Triangle */
 #textmantra{
-    display:flex;
+    display: flex;
     font-family: 'Martel';
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
     color: #FFD700;
-    margin-top: 40px;
     flex-wrap: wrap;
+    margin-top: 10%;
 }
 
 #textmantra1
@@ -868,7 +927,7 @@ a:Visited{
     font-family: 'Martel';
     font-style: normal;
     font-weight: 500;
-    font-size: 32px;
+    font-size: 29px;
     color: #FFD700;
     flex-wrap: wrap;
     margin-left: 4%;
@@ -877,8 +936,44 @@ a:Visited{
 #omImage{
     width: 104px;
     height: 106px;
-    margin-top: 17px;
+    margin-top: 20px;
 }
+/* Headerabout */
+.HeaderaboutBox1Text {
+    display: flex;
+    justify-content: center;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+#HeaderaboutText1 {
+    font-family: Martel;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: center;
+    flex-wrap: wrap;
+    color: #FFD700;
+}
+.AchraInfo {
+     margin-top: 0; 
+}
+.AchraInfoTextBox {
+    display: flex;
+    flex-wrap: wrap;
+    margin-Left: 4%;
+    margin-right: 4%;
+}
+#AchraEducationText {
+    font-family: HelveticaNeue;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 
 }
 
@@ -1015,11 +1110,57 @@ a:Visited{
     }
 
     #lordShivaImage {
-        height: 239px;
-        width: 140px;
-        position: absolute;
-        right: 0px;
-        margin-top: 41%;
+    height: 195px;
+    width: 137px;
+    position: absolute;
+    right: 0px;
+    margin-top: 28%;
+    }
+    /* Header About */
+    #HeaderaboutText1 {
+        font-family: Martel;
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: center;
+        flex-wrap: wrap;
+        color: #FFD700;
+    }
+
+    /* Achra box */
+    .middleImage {
+        background-image: url('./Images/Header/seaWave.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 433px;
+    }
+    .AchraInfo {
+        margin-top: 0; 
+    }
+    #AcharayaName {
+        font-family: HelveticaNeue;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .AchraInfoTextBox {
+        display: flex;
+        flex-wrap: wrap;
+        margin-Left: 4%;
+        margin-right: 4%;
+    }
+    #AchraEducationText {
+        font-family: HelveticaNeue;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+        display: flex;
+        flex-wrap: wrap;
     }
 
 
@@ -1057,13 +1198,64 @@ a:Visited{
     }
 
     #lordShivaImage {
-        height: 217px;
-        width: 129px;
+        height: 169px;
+        width: 124px;
         position: absolute;
         right: 0px;
-        margin-top: 54%;
+        margin-top: 25%;
     }
-  }
+    .middleImage {
+        background-image: url('./Images/Header/seaWave.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 351px;
+}
+#HeaderaboutText1 {
+    font-family: Martel;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    flex-wrap: wrap;
+    color: #FFD700;
+}
+/* Achra BOx */
+#AchraEducationText {
+    font-family: HelveticaNeue;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.AchraInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+#AcharayaName {
+    font-family: HelveticaNeue;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.AchraInfoTextBox {
+    display: flex;
+    flex-wrap: wrap;
+    margin-Left: 4%;
+    margin-right: 4%;
+}
+}
 @media only screen and (max-width: 541px){
     body{
         overflow-x: hidden;
@@ -1305,9 +1497,163 @@ a:Visited{
     margin-bottom: 10%;
 }
 
+/* triangle */
+#textmantra{
+    display:flex;
+    font-family: 'Martel';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFD700;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    margin-top: 13%;
 }
 
-@media only screen and (max-width: 410px){
+#textmantra1
+{
+    display:flex;
+    font-family: 'Martel';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFD700;
+    flex-wrap: wrap;
+    margin-left: 4%;
+    
+}
+#omImage{
+    width: 70px;
+    height: 66px;
+    margin-top: 19px;
+}
+
+#lordShivaImage {
+    height: 159px;
+    width: 120px;
+    position: absolute;
+    right: 0px;
+    margin-top: 18%;
+}
+.middleImage {
+    background-image: url('./Images/Header/seaWave.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 260px;
+
+}
+/* Header About */
+#HeaderaboutText1 {
+    font-family: Martel;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    flex-wrap: wrap;
+    color: #FFD700;
+}
+
+/* header about */
+
+.Headeraboutcontainer{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.HeaderaboutBox2 {
+    width: 42%;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    border-radius: 125px;
+}
+.HeaderaboutBox1 {
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient( #ffff 0%, #ffff 100%);
+    padding-top: 18px;
+}
+
+/* Achraya Box */
+.AchraBox {
+    display: flex;
+    flex-direction: column;
+}
+#HeaderaboutText1 {
+    font-family: Martel;
+    font-size: 23px;
+    font-weight: 300;
+    line-height: 34px;
+    letter-spacing: 0em;
+    /* text-align: center; */
+    flex-wrap: wrap;
+    /* color: #FFD700; */
+    color: black;
+}
+.HeaderaboutBox1Text {
+    display: flex;
+    justify-content: center;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.AchraImageBox {
+    display: flex;
+    width: 42%;
+    height: 220px;
+    background-image: url('./Images/Header/Achraya_jii.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-wrap: wrap;
+    border-radius: 120px;
+    align-self: center;
+    margin-top: 4%;
+}
+/* background-image: url('./Images/Header/Achraya_jii.png');*/
+
+.AchraInfoBox {
+    width: 100%;
+}
+.AchraInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 16px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+#AcharayaName {
+    font-size: 22px;
+    text-align: center;
+    font-weight: 500;
+}
+
+#AchraEducationText {
+    font-family: HelveticaNeue;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.AchraInfoTextBox {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 4%;
+    margin-left: 4%;
+}
+
+}
+
+@media only screen and (max-width: 415px){
         /*contact form */
 
         .ContactMiddleOuterdiv{
@@ -1355,4 +1701,143 @@ a:Visited{
         #sendbutton{
             font-size: 12px;
         }
+
+        /* triangle */
+#textmantra{
+    display: flex;
+    font-family: 'Martel';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFD700;
+    flex-wrap: wrap;
+    margin-top: 23%;
+}
+
+#textmantra1
+{
+    display:flex;
+    font-family: 'Martel';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFD700;
+    flex-wrap: wrap;
+    margin-left: 6%;
+    
+}
+#omImage{
+    width: 46px;
+    height: 50px;
+    margin-top: 32px;
+}
+
+#lordShivaImage {
+    height: 126px;
+    width: 90px;
+    position: absolute;
+    right: 0px;
+    margin-top: 32%;
+}
+.middleImage {
+        background-image: url('./Images/Header/seaWave.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 252px;
+   
+}
+/* header about */
+    .Headeraboutcontainer{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .HeaderaboutBox2 {
+        width: 45%;
+        height: 177px;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        margin-top: 4%;
+        margin-bottom: 4%;
+        border-radius: 105px;
+    }
+    .HeaderaboutBox1 {
+        width: 100%;
+        left: 0px;
+        top: 0px;
+        background: linear-gradient( #ffff 0%, #ffff 100%);
+        padding-top: 18px;
+    }
+
+    /* Achraya Box */
+    .AchraBox {
+        display: flex;
+        flex-direction: column;
+    }
+    #HeaderaboutText1 {
+        font-family: Martel;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 29px;
+        letter-spacing: 0em;
+        /* text-align: center; */
+        flex-wrap: wrap;
+        /* color: #FFD700; */
+        color: black;
+    }
+    .HeaderaboutBox1Text {
+        display: flex;
+        justify-content: center;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    .AchraImageBox {
+        display: flex;
+        width: 47%;
+        height: 174px;
+        background-image: url('./Images/Header/Achraya_jii.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        flex-wrap: wrap;
+        border-radius: 120px;
+        align-self: center;
+        margin-top: 4%;
+    }
+
+    .AchraInfoBox {
+        width: 100%;
+    }
+    .AchraInfo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 16px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    #AcharayaName {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    #AchraEducationText {
+        font-family: HelveticaNeue;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0em;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .AchraInfoTextBox {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 4%;
+        margin-left: 4%;
+    }
+
 }

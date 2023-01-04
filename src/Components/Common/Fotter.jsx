@@ -30,8 +30,12 @@ function Fotter(){
                 <div className='socialImageContainer'>
 
                     <img id="imagesocial" src={whatsapp} alt="error" />
+                    <a href="https://www.instagram.com/uniyalmahendra/">
                     <img id="imagesocial" src={Instagram} alt="error" />
+                    </a>
+                    <a href="https://www.facebook.com/mahendra.uniyal.5">
                     <img id="imagesocial" src={Facebook} alt="error" />
+                    </a>
 
                 </div>
             </div>
