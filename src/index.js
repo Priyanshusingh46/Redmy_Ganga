@@ -22,3 +22,8 @@ root.render(
 
       <Route path="/payment" element={<Payment/>}></Route>
       */
+
+      /*
+
+      <Route path="/contact" element={<Contact/>}></Route>
+      */
