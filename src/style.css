@@ -118,7 +118,6 @@ a:Visited{
     font-style: normal;
     font-weight: 500;
     font-size: 38px;
-    line-height: 40px;
     color: #FFD700;
     flex-wrap: wrap;
     
@@ -767,11 +766,11 @@ a:Visited{
     }
     /*Home Siva bagwan wala */
     #lordShivaImage{
-        height: 250px;
+        height: 239px;
         width: 140px;
         position: absolute;
         right: 0px;
-        bottom: 160px;
+        margin-top: 31%;
     }
 
     /* About part */
@@ -850,9 +849,40 @@ a:Visited{
     height: 100px;
     margin-top: 100px;
 }
+
+/* Triangle */
+#textmantra{
+    display:flex;
+    font-family: 'Martel';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    color: #FFD700;
+    margin-top: 40px;
+    flex-wrap: wrap;
 }
 
-  @media only screen and (max-width: 680px){
+#textmantra1
+{
+    display:flex;
+    font-family: 'Martel';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    color: #FFD700;
+    flex-wrap: wrap;
+    margin-left: 4%;
+    
+}
+#omImage{
+    width: 104px;
+    height: 106px;
+    margin-top: 17px;
+}
+
+}
+
+  @media only screen and (max-width: 780px){
 
         /* Contact form */
     .ContactMiddleOuterdiv{
@@ -954,10 +984,86 @@ a:Visited{
         flex-wrap: wrap;
     }
 
+    /* traingle */
+    #textmantra{
+        display:flex;
+        font-family: 'Martel';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        color: #FFD700;
+        margin-top: 40px;
+        flex-wrap: wrap;
+    }
+    
+    #textmantra1
+    {
+        display:flex;
+        font-family: 'Martel';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        color: #FFD700;
+        flex-wrap: wrap;
+        margin-left: 4%;
+        
+    }
+    #omImage{
+        width: 84px;
+        height: 86px;
+        margin-top: 15px;
+    }
+
+    #lordShivaImage {
+        height: 239px;
+        width: 140px;
+        position: absolute;
+        right: 0px;
+        margin-top: 41%;
+    }
+
 
   }
 
+  @media only screen and (max-width: 650px){
+    /* traingle */
+    #textmantra{
+        display:flex;
+        font-family: 'Martel';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        color: #FFD700;
+        margin-top: 40px;
+        flex-wrap: wrap;
+    }
+    
+    #textmantra1
+    {
+        display:flex;
+        font-family: 'Martel';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        color: #FFD700;
+        flex-wrap: wrap;
+        margin-left: 4%;
+        
+    }
+    #omImage{
+        width: 70px;
+        height: 66px;
+        margin-top: 19px;
+    }
 
+    #lordShivaImage {
+        height: 217px;
+        width: 129px;
+        position: absolute;
+        right: 0px;
+        margin-top: 54%;
+    }
+  }
 @media only screen and (max-width: 541px){
     body{
         overflow-x: hidden;
@@ -1199,8 +1305,6 @@ a:Visited{
     margin-bottom: 10%;
 }
 
-
-
 }
 
 @media only screen and (max-width: 410px){
@@ -1252,4 +1356,3 @@ a:Visited{
             font-size: 12px;
         }
 }
-
