@@ -1636,8 +1636,8 @@ a:Visited{
 }
 
 #AchraEducationText {
-    font-family: HelveticaNeue;
-    font-size: 18px;
+    font-family: Martel;
+    font-size: 23px;
     font-weight: 400;
     line-height: 28px;
     letter-spacing: 0em;
@@ -1650,6 +1650,59 @@ a:Visited{
     flex-wrap: wrap;
     margin-right: 4%;
     margin-left: 4%;
+}
+/* service */
+#KundaliText {
+    font-size: 22px;
+}
+.extraBox {
+    height: 129px;
+    width: 126px;
+    background-color: #FDBB11;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+}
+#KudaliItemImage {
+    display: flex;
+    height: 57px;
+    align-self: center;
+}
+.KundaliItemBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0;
+
+}
+.kundaliItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+#KundaliName {
+    margin-left: 0; 
+    font-size: 20px;
+}
+
+.PujaItemImageBox {
+    width: 160px;
+    height: 166px;
+    background-color: #FDBB11;
+    border-radius: 15px;
+}
+#PujaItemImage {
+    width: 107px;
+    height: 106px;
+    padding: 27px;
+}
+#PujaName {
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    text-align: center;
 }
 
 }
@@ -1832,13 +1885,13 @@ a:Visited{
     }
 
     #AchraEducationText {
-        font-family: HelveticaNeue;
+        font-family: Martel;
         font-size: 18px;
-        font-weight: 400;
-        line-height: 28px;
+        font-weight: 300;
+        line-height: 29px;
         letter-spacing: 0em;
-        display: flex;
         flex-wrap: wrap;
+        color: black;
     }
 
     .AchraInfoTextBox {
