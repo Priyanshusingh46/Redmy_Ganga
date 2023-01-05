@@ -1294,14 +1294,14 @@ a:Visited{
     flex-direction: row;
     justify-content: center;
    }
-   #PujaInfoPara{
+   #PujaInfoPara {
     margin-left: 12px;
     margin-right: 12px;
-    font-size: 22px;
-    line-height: 25px;
+    font-size: 18px;
+    line-height: 24px;
     display: flex;
     flex-wrap: wrap;
-   }
+}
    #PujaDescriptionContainerImage{
     width:100px;
     height:100px;
@@ -1704,6 +1704,15 @@ a:Visited{
     font-size: 19px;
     text-align: center;
 }
+.PujaItemsCard{
+    flex-direction: column;
+    align-self: center;
+}
+.PujaItems{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 }
 
@@ -1953,6 +1962,17 @@ a:Visited{
         font-weight: 400;
         font-size: 19px;
         text-align: center;
+    }
+    .PujaItemsCard {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .PujaItems{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
     }
 
 }
