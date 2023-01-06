@@ -46,6 +46,9 @@ body {
     width: 100%;
     flex-wrap: wrap;
 }
+li a{
+    color:#FDBB11;
+}
 li{
     margin-right: 20px;
 }
@@ -58,6 +61,9 @@ a:Visited{
 }
 .HeaderBox ul{
     list-style: none;
+}
+.active{
+    color:#95060B;
 }
     
 /* Header Middle Part */

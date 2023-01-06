@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Kalash from "../../Images/Header/Kalash.png"
 import css from "../../style.css";
 function Header() {
@@ -13,23 +13,23 @@ function Header() {
 
         <ul className="link">
                     <li >
-                    <Link to="/">Home</Link>
+                    <NavLink to="/">Home</NavLink>
                     </li>
 
                     <li >
-                    <Link to="/about">About</Link>
+                    <NavLink to="/about">About</NavLink>
                     </li>
 
                     <li>
-                    <Link to="/service">Services</Link>
+                    <NavLink to="/service">Services</NavLink>
                     </li>
 
                     <li>
-                    <Link to="/payment">Payment</Link>
+                    <NavLink to="/payment">Payment</NavLink>
                     </li>
 
                     <li>
-                    <Link to="/contact">Contact</Link>
+                    <NavLink to="/contact">Contact</NavLink>
                     </li>
                     
                 </ul>
