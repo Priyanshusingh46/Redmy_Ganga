@@ -7,14 +7,14 @@ import PujaDescription from './Services/PujaDescription';
 
 function Service() {
   return (
-    <>
+    <div className='MainBoxEveryPage'>
     <Header />
     <div className='serviceBackgroundImageBox'></div>
     <Kundali />
     <Puja />
     <PujaDescription />
     <Fotter />
-    </>
+    </div>
   )
 }
 

@@ -5,12 +5,12 @@ import Header from './Common/Header'
 import Fotter from './/Common/Fotter'
 function About() {
   return (
-    <>
+    <div className='MainBoxEveryPage'>
     <Header />
     <AboutAchyra />
     <AboutEducation />
     <Fotter />
-    </>
+    </div>
   )
 }
 

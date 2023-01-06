@@ -10,7 +10,7 @@ import Triangle from './Home/Triangle'
 
 function Home() {
   return (
-    <div>
+    <div className='MainBoxEveryPage'>
         <Header />
         <Middle />
         <Triangle />

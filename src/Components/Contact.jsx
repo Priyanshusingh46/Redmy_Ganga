@@ -5,12 +5,12 @@ import ContactMiddle from './Contact/ContactMiddle'
 import Map from './Contact/Map'
 function Contact() {
   return (
-    <>
+    <div className='MainBoxEveryPage'>
     <Header />
     <ContactMiddle />
     <Map />
     <Fotter />
-    </>
+    </div>
   )
 }
 

@@ -65,6 +65,12 @@ a:Visited{
 .active{
     color:#95060B;
 }
+
+.MainBoxEveryPage{
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+}
     
 /* Header Middle Part */
 
@@ -791,6 +797,7 @@ a:Visited{
         padding: 0;
         margin: 0;
         box-sizing: border-box;
+        width: 100%;         
     }
     .HeaderBox{
         display: flex;
@@ -985,6 +992,13 @@ a:Visited{
 }
 
   @media only screen and (max-width: 780px){
+    body{
+        overflow-x: hidden;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        width: 100%;         
+    }
 
         /* Contact form */
     .ContactMiddleOuterdiv{
@@ -1174,6 +1188,13 @@ a:Visited{
   }
 
   @media only screen and (max-width: 650px){
+    body{
+        overflow-x: hidden;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        width: 100%;         
+    }
     /* traingle */
     #textmantra{
         display:flex;
@@ -1268,6 +1289,8 @@ a:Visited{
         overflow-x: hidden;
         padding: 0;
         margin: 0;
+        box-sizing: border-box;
+        width: 100%;         
     }
     .KundaliItemBox{
         display: flex;
@@ -1724,14 +1747,13 @@ a:Visited{
 
 @media only screen and (max-width: 415px){
         /*contact form */
-        body {
+        body{
             overflow-x: hidden;
             padding: 0;
             margin: 0;
             box-sizing: border-box;
-            width: 100%;
-        
-          }
+            width: 100%;         
+        }
         .ContactMiddleOuterdiv{
             display: flex;
             flex-direction: column;
