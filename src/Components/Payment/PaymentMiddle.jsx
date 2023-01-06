@@ -33,11 +33,11 @@ function PaymentMiddle() {
           </div>
 
           <div className='PaymentMiddleRightPartBottom'>
-            <h4>Direct to Bank Account</h4>
-            <p>Beneficiary name : Mahendra Uniyal</p>
-              <p>Account no : 0836001500019113</p>
-              <p>IFSC code : PUNB0083600</p>
-             <p> Bank : Punjab National Bank</p>
+            <h3>Direct to Bank Account</h3>
+            <p id="AccountDetails">Beneficiary name : Mahendra Uniyal</p>
+              <p id="AccountDetails">Account no : 0836001500019113</p>
+              <p id="AccountDetails">IFSC code : PUNB0083600</p>
+             <p id="AccountDetails"> Bank : Punjab National Bank</p>
           </div>
 
         </div>

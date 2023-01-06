@@ -514,6 +514,9 @@ a:Visited{
 
 
 /* Payment */
+.PaymentMiddleRightPartTop{
+    display: none;
+}
 .PaymentBackgroundImageCOntainer{
     background-image: url('./Images/Payment/paymentbg.png');
     background-size: cover;
@@ -562,7 +565,7 @@ a:Visited{
     display: flex;
     flex-direction: column;
     margin-left: -30%;
-    margin-top: 2%;
+    margin-top: 6%;
 }
 .PaymentMiddleRightPartBottom{
     margin-top: 30%;
@@ -572,6 +575,9 @@ a:Visited{
 }
 #PaymentMiddleRightPartToplink{
     color:#2B65EC
+}
+.AccountDetails{
+    font-size: 22px;
 }
 
 /*contact Section */
@@ -669,19 +675,32 @@ a:Visited{
         justify-content: center;
     }
 
-    .PaymentQrRow{
+    .PaymentQrRow {
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-between;
     }
-    
-    .PaymentMiddleRightPart{
+    .PaymentMiddleQrWala{
+        margin-left: 10%;
+    }
+    .verticalLine {
+        border-left: 2px solid black;
+        height: 440px;
+        margin-top: 60px;
+        margin-left: -51%;
+    }
+    .PaymentMiddleRightPartBottom {
+        margin-top: 38%;
+        margin-left: -66%;
+    }
+   /* .PaymentMiddleRightPart{
         display: flex;
         flex-direction: column;
         margin-left: 10%;
     }
     .verticalLine{
         display: none;
-    }
+    }*/
 
     #AccountHolderName{
         text-align: center;
@@ -988,6 +1007,26 @@ a:Visited{
     flex-wrap: wrap;
 }
 
+/* payment */
+.PaymentMiddleRightPartBottom {
+    margin-top: 3%;
+}
+.QrImageContainer {
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+}
+.PaymentMiddleQrWala {
+    margin-left: 0%;
+}
+.verticalLine {
+    margin-left: -46%;
+}
+.PaymentMiddleRightPartBottom {
+    margin-top: 46%;
+    margin-left: -25%;
+}
+
 
 }
 
@@ -1184,6 +1223,25 @@ a:Visited{
         flex-wrap: wrap;
     }
 
+    /* Payments */
+    .verticalLine {
+        display: none;
+    }
+
+    .QrImageContainer {
+         margin-left: 0%; 
+    }
+    #QrImage {
+        width: 40%;
+    }
+    .PaymentQrRow {
+        margin-left: -25%;
+    }
+    .PaymentMiddleRightPartBottom {
+        margin-top: 37%;
+        margin-left: -20%;
+    }
+
 
   }
 
@@ -1283,6 +1341,26 @@ a:Visited{
     margin-Left: 4%;
     margin-right: 4%;
 }
+/* Payment */
+    #QrImage {
+        width: 25%;
+    }
+    .PaymentMiddleRightPartBottom {
+        margin-top: 35%;
+        margin-left: -7%;
+    }
+    .QrPartContainer {
+        margin-left: -14%;
+    }
+    #AccountHolderName {
+        font-size: 15px;
+    }
+    #AccountDetails{
+        font-size: 14px;
+    }
+    #PaymentMiddlePara {
+        font-size: 17px;
+    }
 }
 @media only screen and (max-width: 541px){
     body{
@@ -1742,6 +1820,42 @@ a:Visited{
     flex-direction: column;
     align-items: center;
 }
+/* Payments */
+.PaymentQrRow {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 0;
+}
+.QrPartContainer {
+    margin-left: 0%;
+    margin-top: 48px;
+}
+#QrImage {
+    width: 40%;
+}
+.PaymentMiddleRightPartBottom{
+    margin-top: 0;
+    margin-left: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center; 
+    align-items: center;
+}
+.PaymentMiddleRightPart {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6%; 
+    margin-left: 0;
+}
+#AccountDetails {
+    font-size: 17px;
+    line-height: 0px;
+}
+#AccountHolderName {
+    font-size: 20px;
+}
 
 }
 
@@ -2001,6 +2115,30 @@ a:Visited{
         flex-direction: column;
         justify-content: center;
         align-self: center;
+    }
+    /* Payments */
+    #AccountHolderName {
+        font-size: 16px;
+    }
+
+    #QrImage {
+        width: 34%;
+    }
+    #AccountDetails {
+        font-size: 14px;
+        line-height: 0px;
+    }
+    #PaymentMiddlePara {
+        font-size: 15px;
+    }
+    /* footer */
+    #headingFotter {
+        font-size: 19px;
+    }
+    .span1 {
+        font-size: 15px;
+        color: #FDBB11;
+        line-height: 24px;
     }
 
 }
