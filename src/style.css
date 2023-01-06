@@ -1027,6 +1027,13 @@ a:Visited{
     margin-left: -25%;
 }
 
+.PaymentQrRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 14%;
+}
+
 
 }
 
