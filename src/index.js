@@ -14,16 +14,9 @@ root.render(
       <Route path="/about" element={<About />}></Route>
       <Route path="/service" element={<Service/>}></Route>
       <Route path="/payment" element={<Payment/>}></Route>
+      <Route path="/contact" element={<Contact/>}></Route>
       </Routes>
   </BrowserRouter>,
   document.getElementById("root")
 );
-/*
 
-      <Route path="/payment" element={<Payment/>}></Route>
-      */
-
-      /*
-
-      <Route path="/contact" element={<Contact/>}></Route>
-      */
