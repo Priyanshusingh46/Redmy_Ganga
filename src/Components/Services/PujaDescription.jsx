@@ -7,7 +7,7 @@ import Fire from "../../Images/Header/fire.png"
 import Shiva from "../../Images/Header/God_shiva.png"
 import Navgrah from "../../Images/Header/Navgrah.png"
 import Book from "../../Images/Header/Book.png"
-import Yantra from "../../Images/Header/Yantra.png"
+import Yantra from "../../Images/Header/Yantra1.png"
 import AOS from "aos";
 import "aos/dist/aos.css";
 function PujaDescription() {
