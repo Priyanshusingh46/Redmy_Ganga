@@ -5,10 +5,12 @@ import css from "../../style.css";
 function Header() {
   return (
     <div className='HeaderBox'>
+      <NavLink to ="/">
         < div className='KalashnameBox'>
             <img id="kalashimage" src={Kalash} alt="error"/>
             <span id="Remedy_ganga"> Remedy Ganga</span>
         </div>
+        </NavLink>
         <div className='linkTab'>
 
         <ul className="link">

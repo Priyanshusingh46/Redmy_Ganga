@@ -49,6 +49,49 @@ function Puja() {
          <p id="PujaName">Maha Mrityunjaya</p>
         </div>
 
+
+        <div data-aos="flip-right" data-aos-offset="100" className='PujaItems'>
+    <div className='PujaItemImageBox'>
+        <img  id ="PujaItemImage" src={Shiva} alt="error" />
+    </div>
+    <p id="PujaName">Ganga Pujan</p>
+    </div>
+
+
+    <div data-aos="flip-right" data-aos-offset="100" className='PujaItems'>
+    <div className='PujaItemImageBox'>
+        <img  id ="PujaItemImage" src={Navgrah} alt="error" />
+    </div>
+    <p id="PujaName">Navgrah Jap</p>
+    </div>
+
+
+    <div data-aos="flip-right" data-aos-offset="100" className='PujaItems'>
+    <div className='PujaItemImageBox'>
+        <img  id ="PujaItemImage" src={Book} alt="error" />
+    </div>
+    <p id="PujaName">Bhagwat mool Path</p>
+    </div>
+
+
+    <div data-aos="flip-right" data-aos-offset="100" className='PujaItems'>
+    <div className='PujaItemImageBox'>
+        <img  id ="PujaItemImage" src={Fire} alt="error" />
+    </div>
+    <p id="PujaName">Yagya</p>
+    </div>
+
+    <div data-aos="flip-left" data-aos-offset="100" className='PujaItems'>
+    <div className='PujaItemImageBox'>
+        <img  id ="PujaItemImage" src={Yantra} alt="error" />
+    </div>
+    <p id="PujaName">Yantra Pujan</p>
+    </div>
+
+
+
+
+
         <div data-aos="flip-left" data-aos-offset="100" className='PujaItems'>
         <div className='PujaItemImageBox'>
             <img  id ="PujaItemImage" src={Snake} alt="error" />
@@ -60,7 +103,7 @@ function Puja() {
 
 
 
-
+{/*
 
     <div className='PujaItemsCard'>
 
@@ -103,7 +146,7 @@ function Puja() {
     <p id="PujaName">Yantra Pujan</p>
     </div>
 
-    </div>
+  </div>*/}
     </div>
   )
 }

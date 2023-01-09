@@ -213,7 +213,7 @@ a:Visited{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 140px;
+    margin-top: 65px;
     width: 100%;
     flex-wrap: wrap;
 }
@@ -221,10 +221,10 @@ a:Visited{
 .AchraInfoBox{
     width: 50%;
 }
-#AcharayaName{
+#AcharayaName {
     font-family: HelveticaNeue;
-    font-size: 25px;
-    font-weight: 600;
+    font-size: 42px;
+    font-weight: 800;
     line-height: 36px;
     letter-spacing: 0em;
     text-align: center;
@@ -318,10 +318,10 @@ a:Visited{
     font-size: 24px;
     text-align: center;
 }
-.PujaItemsCard{
+.PujaItemsCard {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -451,13 +451,13 @@ a:Visited{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    width:15%;
-    height:300px;
+    width: 19%;
+    height: 377px;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 8%;
-    margin-top: 82px;
-    margin-bottom: 6%;
+    /* margin-left: 8%; */
+    /* margin-top: 82px; */
+    /* margin-bottom: 6%;*/
 }
 
 /* About Education */
@@ -505,10 +505,10 @@ a:Visited{
     flex-wrap: wrap;
     width: 80%;
 }
-#astrologyImage{
+#astrologyImage {
     margin-right: 100px;
-    width: 140px;
-    height: 140px;
+    width: 165px;
+    height: 164px;
     margin-top: 80px;
 }
 

@@ -5,11 +5,11 @@ function AchrayaBox() {
   return (
     AOS.init(),
     <div className='AchraBox'>
-        <div data-aos="fade-right"  data-aos-offset="300" className='AchraImageBox'>
+        <div data-aos="fade-right"  data-aos-offset="100" className='AchraImageBox'>
 
         </div>
         
-        <div data-aos="fade-left"  data-aos-offset="300" className='AchraInfoBox'>
+        <div data-aos="fade-left"  data-aos-offset="100" className='AchraInfoBox'>
             
         <div className='AchraInfo'>
             <p id="AcharayaName">Acharya Mahendra Uniyal -Certified Astrologer </p>

@@ -5,7 +5,7 @@ function Headerabout() {
   return (
     AOS.init(),
     <div className='Headeraboutcontainer'>
-        <div data-aos="fade-right"  data-aos-offset="300" className='HeaderaboutBox1'>
+        <div data-aos="fade-right"  data-aos-offset="100" className='HeaderaboutBox1'>
             <div className='HeaderaboutBox1Text'>
             <p id='HeaderaboutText1'>
             It is said that the holy water of the river Ganga removes all the sins and spiritualizes your soul.
@@ -18,7 +18,7 @@ function Headerabout() {
         </div>
 
 
-        <div data-aos="fade-left"  data-aos-offset="300" className='HeaderaboutBox2'>
+        <div data-aos="fade-left"  data-aos-offset="100" className='HeaderaboutBox2'>
             
         </div>
     </div>

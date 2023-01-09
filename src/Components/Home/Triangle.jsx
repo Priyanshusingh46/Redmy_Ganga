@@ -9,7 +9,7 @@ function Triangle() {
         <div className='triangleText1Box'>
         <p id="textmantra"> ॐ नमो गंगायै विश्वरुपिणी नारायणी नमो नम:।। </p>
         </div>
-        <div data-aos="fade-up-right"  data-aos-offset="300"  className='omBox'>
+        <div data-aos="fade-up"  data-aos-offset="300"  className='omBox'>
         <img id="omImage" src={om} alt="error"/>
         </div>
         <div className='triangleText2Box'>
