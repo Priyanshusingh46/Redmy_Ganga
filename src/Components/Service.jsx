@@ -9,7 +9,9 @@ function Service() {
   return (
     <div className='MainBoxEveryPage'>
     <Header />
-    <div className='serviceBackgroundImageBox'></div>
+    <div className='serviceBackgroundImageBox'>
+    <p id="AboutUsPara">Service</p>
+    </div>
     <Kundali />
     <Puja />
     <PujaDescription />

@@ -46,7 +46,9 @@ function ContactMiddle() {
                 
                 <input id="textinput" type="text" required/>
                 <div className='senddivform'>
+                    <div className='buttonclass'>
                     <h2 id="sendbutton">SEND</h2>
+                    </div>
                 </div>
             </form>
         </div>

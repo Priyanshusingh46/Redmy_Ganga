@@ -70,10 +70,7 @@ function PujaDescription() {
             <div classname="PujaDescriptionContainerInfo">
                 <h1 id="pujaInfoHeading">Maha Mrityunjaya Jaap</h1>
                 <p id="PujaInfoPara">
-                “Om Namo Bhagwate Rudraya Namah” By worshiping Lord Shiva and doing abhishek,
-                 a person gets full wealth and opulence. In Rudrabhishek, according to the wishes 
-                 of the person, Gaughrit, honey, milk, sugar, curd, sugarcane 
-                juice, kusha water, mustard oil, giloy juice etc. are done by Vedic Brahmins by scriptural method.
+                "Om Trymbakam Yajamahe” …… Lord Shiva's special grace is obtained by chanting 1,25,000 mantras.
                 </p>
             </div>
         </div>

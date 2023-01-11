@@ -12,7 +12,7 @@ function AchrayaBox() {
         <div data-aos="fade-left"  data-aos-offset="100" className='AchraInfoBox'>
             
         <div className='AchraInfo'>
-            <p id="AcharayaName">Acharya Mahendra Uniyal -Certified Astrologer </p>
+            <p id="AcharayaName">Acharya Mahendra Uniyal - Certified Astrologer </p>
         </div>
 
         <div className='AchraInfoTextBox'>

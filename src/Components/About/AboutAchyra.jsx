@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -6,7 +6,9 @@ function AboutAchyra() {
   return (
     AOS.init(),
     <>
-    <div className="AboutOuterContainer"></div>
+    <div className="AboutOuterContainer">
+      <p id="AboutUsPara">About Us</p>
+    </div>
 
     <div className='AchraAboutInfoContainer'>
       <div className='AchraAboutInfo'>
@@ -24,8 +26,9 @@ function AboutAchyra() {
       More than 10,000+ clients have taken advantage of the Astrological 
       as well as Vaastu Consultations which includes Politicians, Actors,
        Directors, Producers, Anti-Corruption Officers, IT Professionals, 
-       Bank Officers, Businessman from around the globe. He has a repeat clientele 
-       of 99.9%. Join the many thousands of people who have used his services to gain
+       Bank Officers, Businessman from around the globe. He has a repeat clientele
+       of 99.9%.
+       Join the many thousands of people who have used his services to gain
        a better understanding of their lives, direction and where they are going.
       When you schedule your Horoscope reading or Vaastu Consultation with Acharya 
       Mahendra Uniyal ji you will receive a detailed and highly accurate reading that
@@ -37,7 +40,6 @@ function AboutAchyra() {
       work and show good results. He has helped
       people facing issues with all aspects of life like
       be it a career, marriage, etc.
-
         </p>
 
       </div>
@@ -50,3 +52,7 @@ function AboutAchyra() {
 }
 
 export default AboutAchyra
+
+/*
+
+      */

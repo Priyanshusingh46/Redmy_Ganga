@@ -3,7 +3,9 @@ import Qr from '../../Images/Payment/Qr.png'
 function PaymentMiddle() {
   return (
     <div className='PaymentMiddleContainer'>
-        <div className='PaymentBackgroundImageCOntainer'></div>
+        <div className='PaymentBackgroundImageCOntainer'>
+        <p id="AboutUsPara">Payment</p>
+        </div>
 
         <div className='PaymentMiddlTitle'>
             <h4 id="PaymentMiddlePara">Book any kind of puja online by advance payment on below details 
@@ -14,7 +16,7 @@ function PaymentMiddle() {
         <div className='PaymentMiddleQrWala'>
 
             <div className='QrPartContainer'>
-                <h4 id="AccountHolderName">Mahendra uniyal</h4>
+                <h2 id="AccountHolderName">Mahendra uniyal</h2>
                 <div className='QrImageContainer'>
                 <img id="QrImage"src={Qr} alt="error" />
                 </div>

@@ -8,10 +8,11 @@ body {
   }
 
 /*Header Styling */
-#kalashimage{
-    width:70px;
-    height:70px;
-    margin-left: 5px;
+#kalashimage {
+    width: 70px;
+    height: 70px;
+    margin-left: 80px;
+    margin-top: 4%;
 }
 .KalashnameBox{
     display:flex;
@@ -86,19 +87,30 @@ a:Visited{
 #lordShivaImage {
     height: 564px;
     width: 323px;
+    right: 0;
+    position: absolute;
 }
 
-.shivaBox {
-    display: flex;
-    margin-left: 4%;
-}
 
 .middleImage{
-        background-image: url('./Images/Header/seaWave.png');
+        background-image: url('./Images/Header/Himalaya.jpg');
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: center;
+        background-position:center;
         height: 580px;
+   }
+   #seaWaveImage{
+    height: 580px;
+    display: flex;
+    align-items: flex-end;
+    align-self: flex-end;
+   }
+   .sealordshivaImage{
+    background-image: url('./Images/Header/seaWave.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:left;
+    height: 580px;
    }
 
    /* triangle.jsx styling */
@@ -119,7 +131,7 @@ a:Visited{
     font-weight: 500;
     font-size: 38px;
     color: #FFD700;
-    margin-top: 40px;
+    margin-top: 56px;
     flex-wrap: wrap;
 }
 
@@ -170,15 +182,15 @@ a:Visited{
     margin-left: 116px;
     margin-right: 116px;
 }
-#HeaderaboutText1{
+#HeaderaboutText1 {
     font-family: Martel;
-    font-size: 44px;
+    font-size: 32px;
     font-weight: 300;
     line-height: 54px;
     letter-spacing: 0em;
     text-align: center;
     flex-wrap: wrap;
-    color:#FFD700
+    color: #FFD700;
 }
 .HeaderaboutBox2{
         width: 50%;
@@ -212,7 +224,6 @@ a:Visited{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 65px;
     width: 100%;
     flex-wrap: wrap;
 }
@@ -222,8 +233,8 @@ a:Visited{
 }
 #AcharayaName {
     font-family: HelveticaNeue;
-    font-size: 42px;
-    font-weight: 800;
+    font-size: 30px;
+    font-weight: 600;
     line-height: 36px;
     letter-spacing: 0em;
     text-align: center;
@@ -239,9 +250,9 @@ a:Visited{
     margin-top: 16px;
     margin-left: 12px;
 }
-#AchraEducationText{
+#AchraEducationText {
     font-family: HelveticaNeue;
-    font-size: 32px;
+    font-size: 25px;
     font-weight: 400;
     line-height: 40px;
     letter-spacing: 0em;
@@ -320,10 +331,13 @@ a:Visited{
 .PujaItemsCard {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+     justify-content: center; 
     flex-wrap: wrap;
+    margin-left: 5%;
 }
-
+.PujaItems{
+    margin-right: 5%;
+}
 /*Fotter.jsx */
 .Fotter-outer{
     display: flex;
@@ -384,13 +398,13 @@ a:Visited{
     margin-top:28px;
 }
 #pujaInfoHeading{
-    margin-left: 120px;
+    margin-left: 35px;
     display: flex;
     flex-wrap: wrap;
 }
-#PujaInfoPara{
-    margin-left: 120px;
-    margin-right: 120px;
+#PujaInfoPara {
+    margin-left: 34px;
+     margin-right: 10px; 
     font-size: 22px;
     line-height: 25px;
     display: flex;
@@ -403,7 +417,7 @@ a:Visited{
 
 /* Service page */
 .serviceBackgroundImageBox{
-        background-image: url('./Images/Service/background.png');
+        background-image: url('./Images/Header/background.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -417,7 +431,7 @@ a:Visited{
 /*About.jsx */
 
 .AboutOuterContainer{
-    background-image: url('./Images/About/Aboutbg.png');
+    background-image: url('./Images/Header/background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -426,10 +440,19 @@ a:Visited{
     display: flex;
     flex-wrap: wrap;
 }
+    #AboutUsPara {
+        font-weight: 900;
+        font-size: 50px;
+        color: white;
+        left: 0;
+        margin-left: 2%;
+        margin-top: 10%;
+    }
+
 
 .AchraAboutInfo{
-    width:85%;
-    margin-left:2%
+    width:80%;
+    margin-left:4%
 }
 #AchraAboutInfoHeading{
     font-size: 28px;
@@ -518,12 +541,12 @@ a:Visited{
     display: none;
 }
 .PaymentBackgroundImageCOntainer{
-    background-image: url('./Images/Payment/paymentbg.png');
+    background-image: url('./Images/Header/background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     width:100%;
-    height:400px;
+    height:300px;
     display: flex;
     flex-wrap: wrap; 
 }
@@ -560,6 +583,7 @@ a:Visited{
     flex-direction: row;
     justify-content: space-around;
     margin-left: -14%;
+    margin-top: 7%;
 }
 .PaymentMiddleRightPart{
     display: flex;
@@ -628,26 +652,30 @@ a:Visited{
     width: 600px;
     height: 162px;
     border-radius: 7px;
-    box-shadow: 5px 8px;
+    /*box-shadow: 5px 1px;*/
+    border: 2px solid black;
     
 }
 #textinput1{
     width: 600px;
     height: 56px;
     border-radius: 7px;
-    box-shadow: 5px 8px;
+    /*box-shadow: 5px 1px;*/
+    margin-bottom: 4%;
+    border-width: 3px;
+    border: 2px solid black;
 }
 
 .senddivform{
     display: flex;
-    width:30%;
-    background-color:  #95060B;
+    width:100%;
+    /*background-color:  #95060B;*/
     justify-content: center;
     margin-top: 10%;
    /* margin-left: 34%;*/
     border-radius: 10px;
     margin-bottom: 3%;
-    box-shadow: 5px 8px;
+   /* box-shadow: 5px 1px;*/
 }
 
 #sendbutton{
@@ -656,6 +684,11 @@ a:Visited{
     text-align: center;
     margin-top: 5px;
     margin-bottom: 5px;
+    font-size: 28px;
+}
+.buttonclass{
+    width: 30%;
+    background-color: #95060B;
 }
 
 
@@ -669,6 +702,15 @@ a:Visited{
         width: 100%;
     
       }
+      /* about/service/payment/part*/
+      #AboutUsPara {
+        font-weight: 900;
+        font-size: 50px;
+        color: white;
+        left: 0;
+        margin-left: 2%;
+        margin-top: 15%;
+    }
     .QrPartContainer{
         display: flex;
         flex-direction: column;
@@ -740,18 +782,18 @@ a:Visited{
         margin-top: 6%;
         margin-left: 5%;
     }
-    .senddivform{
+    .senddivform {
         display: flex;
-        width:30%;
-        background-color:  #95060B;
-        margin-top: 10%;
+        width: 50%;
+        /* background-color: #95060B; */
+        margin-top: 5%;
         border-radius: 10px;
-        margin-bottom: 3%;
-        box-shadow: 5px 8px;
-        margin-left: 1%;
+        margin-bottom: 5%;
+        /* box-shadow: 5px 8px; */
+        /* margin-left: 1%; */
     }
     #textinput1{
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
     #textinput{
         margin-bottom: 8px;
@@ -818,6 +860,14 @@ a:Visited{
         box-sizing: border-box;
         width: 100%;         
     }
+    #AboutUsPara {
+        font-weight: 900;
+        font-size: 50px;
+        color: white;
+        left: 0;
+        margin-left: 2%;
+        margin-top: 18%;
+    }
     .HeaderBox{
         display: flex;
         position:relative;
@@ -827,8 +877,8 @@ a:Visited{
         flex-wrap: wrap;
         overflow-x: hidden;
     }
-    .link{
-        font-size: 10px;
+    .link {
+        font-size: 14px;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
@@ -843,23 +893,27 @@ a:Visited{
         width:40px;
         height:40px;
     }
-    #Remedy_ganga{
+    #Remedy_ganga {
         font-size: 18px;
+        margin-top: 7%;
     }
     .HeaderBox{
         width: 100%;
     }
     /*Home Siva bagwan wala */
     #lordShivaImage {
-        height: 345px;
-        width: 166px;
+        height: 421px;
+        width: 174px;
         right: 0px;
     }
     .middleImage {
-        background-image: url('./Images/Header/seaWave.png');
+        background-image: url('./Images/Header/Himalaya.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
+        height: 436px;
+    }
+    .sealordshivaImage {
         height: 436px;
     }
 
@@ -1043,6 +1097,14 @@ a:Visited{
         box-sizing: border-box;
         width: 100%;         
     }
+    #AboutUsPara {
+        font-weight: 900;
+        font-size: 50px;
+        color: white;
+        left: 0;
+        margin-left: 2%;
+        margin-top: 25%;
+    }
 
         /* Contact form */
     .ContactMiddleOuterdiv{
@@ -1061,13 +1123,18 @@ a:Visited{
     }
     .senddivform{
         display: flex;
-        width:25%;
-        background-color:  #95060B;
-        margin-top: 10%;
+        width:100%;
+        /*background-color:  #95060B;*/
+        margin-top: 6%;
         border-radius: 10px;
-        margin-bottom: 3%;
-        box-shadow: 5px 8px;
-        margin-left: 1%;
+        margin-bottom: 6%;
+       /* box-shadow: 5px 8px;*/
+        margin-left: 0;
+    }
+    .buttonclass {
+        width: 24%;
+        background-color: #95060B;
+        margin-left: -40%;
     }
     #textinput{
         width:450px;
@@ -1078,15 +1145,15 @@ a:Visited{
         height:40px
     }
     #contactformname{
-        font-size: 20px;
+        font-size: 25px;
         color: #FFFFFF;
     }
     #ContactMiddlePara{
-        font-size: 20px;
+        font-size: 24px;
         color: #FFFFFF;
     }
     #sendbutton{
-        font-size: 18px;
+        font-size: 25px;
     }
 
     /* ABout */
@@ -1175,8 +1242,8 @@ a:Visited{
     }
 
     #lordShivaImage {
-        height: 300px;
-        width: 137px;
+        height: 412px;
+        width: 158px;
         /* position: absolute; */
         right: 0px;
         /* margin-top: 28%; */
@@ -1195,10 +1262,13 @@ a:Visited{
 
     /* Achra box */
     .middleImage {
-        background-image: url('./Images/Header/seaWave.png');
+        background-image: url('./Images/Header/Himalaya.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
+        height: 433px;
+    }
+    .sealordshivaImage {
         height: 433px;
     }
     .AchraInfo {
@@ -1241,6 +1311,8 @@ a:Visited{
     }
     .PaymentQrRow {
         margin-left: -25%;
+        margin-bottom: 18%;
+        margin-top: 18%;
     }
     .PaymentMiddleRightPartBottom {
         margin-top: 37%;
@@ -1257,6 +1329,14 @@ a:Visited{
         margin: 0;
         box-sizing: border-box;
         width: 100%;         
+    }
+    #AboutUsPara {
+        font-weight: 900;
+        font-size: 50px;
+        color: white;
+        left: 0;
+        margin-left: 2%;
+        margin-top: 32%;
     }
     /* traingle */
     #textmantra{
@@ -1289,19 +1369,23 @@ a:Visited{
     }
 
     #lordShivaImage {
-        height: 252px;
-        width: 124px;
+        height: 327px;
+        width: 144px;
         /* position: absolute; */
         right: 0px;
         /* margin-top: 25%; */
     }
     .middleImage {
-        background-image: url('./Images/Header/seaWave.png');
+        background-image: url('./Images/Header/Himalaya.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
         height: 351px;
-}
+    }
+    .sealordshivaImage{
+        height: 351px;
+    }
+    
 #HeaderaboutText1 {
     font-family: Martel;
     font-size: 18px;
@@ -1348,7 +1432,7 @@ a:Visited{
 }
 /* Payment */
     #QrImage {
-        width: 25%;
+        width: 36%;
     }
     .PaymentMiddleRightPartBottom {
         margin-top: 35%;
@@ -1366,6 +1450,10 @@ a:Visited{
     #PaymentMiddlePara {
         font-size: 17px;
     }
+    /* button form */
+    .buttonclass {
+        margin-left: -20%;
+    }
 }
 @media only screen and (max-width: 541px){
     body{
@@ -1374,6 +1462,14 @@ a:Visited{
         margin: 0;
         box-sizing: border-box;
         width: 100%;         
+    }
+    #AboutUsPara {
+        font-weight: 900;
+        font-size: 40px;
+        color: white;
+        left: 0;
+        margin-left: 2%;
+        margin-top: 38%;
     }
     .KundaliItemBox{
         display: flex;
@@ -1401,7 +1497,7 @@ a:Visited{
     }
    #pujaInfoHeading{
     font-size: 22px;
-    margin-left: 4%;
+    margin-left: 0;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -1419,6 +1515,7 @@ a:Visited{
     height:100px;
     display: flex;
     justify-content: center;
+    margin-left: 0;
    }
    .PujaDescriptionOuterBox{
         margin-top: 15%;
@@ -1450,15 +1547,19 @@ a:Visited{
     margin-top: 6%;
     margin-left: 5%;
 }
-.senddivform{
+.senddivform {
     display: flex;
-    width:25%;
-    background-color:  #95060B;
-    margin-top: 10%;
+    /* width: 25%; */
+    /* background-color: #95060B; */
+    margin-top: 6%;
     border-radius: 10px;
-    margin-bottom: 3%;
-    box-shadow: 5px 8px;
+    margin-bottom: 6%;
+    /* box-shadow: 5px 8px; */
     margin-left: 1%;
+}
+.buttonclass {
+    margin-left: -30%;
+    border-radius: 4px;
 }
 #textinput{
     width:370px;
@@ -1643,19 +1744,21 @@ a:Visited{
 }
 
 #lordShivaImage {
-    height: 246px;
-    width: 88px;
+    height: 255px;
+    width: 138px;
     /* position: absolute; */
     right: 0px;
     /* margin-top: 18%; */
 }
 .middleImage {
-    background-image: url('./Images/Header/seaWave.png');
+    background-image: url('./Images/Header/Himalaya.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: 260px;
-
+}
+.sealordshivaImage{
+    height: 260px;
 }
 /* Header About */
 #HeaderaboutText1 {
@@ -1838,7 +1941,7 @@ a:Visited{
     margin-top: 48px;
 }
 #QrImage {
-    width: 40%;
+    width: 50%;
 }
 .PaymentMiddleRightPartBottom{
     margin-top: 0;
@@ -1852,15 +1955,16 @@ a:Visited{
 .PaymentMiddleRightPart {
     display: flex;
     flex-direction: column;
-    margin-top: 6%; 
+    margin-top: 6%;
     margin-left: 0;
+    margin-bottom: 20%;
 }
 #AccountDetails {
-    font-size: 17px;
+    font-size: 20px;
     line-height: 0px;
 }
 #AccountHolderName {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 }
@@ -1873,6 +1977,14 @@ a:Visited{
             margin: 0;
             box-sizing: border-box;
             width: 100%;         
+        }
+        #AboutUsPara {
+            font-weight: 900;
+            font-size: 30px;
+            color: white;
+            left: 0;
+            margin-left: 2%;
+            margin-top: 52%;
         }
         .ContactMiddleOuterdiv{
             display: flex;
@@ -1888,25 +2000,27 @@ a:Visited{
             margin-top: 6%;
             margin-left: 5%;
         }
-        .senddivform{
+        .senddivform {
             display: flex;
-            width:25%;
-            background-color:  #95060B;
-            margin-top: 10%;
+            width: 81%;
+            /* background-color: #95060B; */
+            margin-top: 6%;
             border-radius: 10px;
-            margin-bottom: 3%;
-            box-shadow: 5px 8px;
-            margin-left: 1%;
+            margin-bottom: 6%;
+            /* box-shadow: 5px 8px; */
+            /* margin-left: 1%; */
         }
         #textinput{
             width:240px;
             height:50px;
             margin-bottom: 10px;
+            border: 0;
         }
         #textinput1{
             width:240px;
             height:18px;
             margin-bottom: 10px;
+            border:0;
         }
         #contactformname{
             font-size: 14px;
@@ -1951,19 +2065,25 @@ a:Visited{
 }
 
 #lordShivaImage {
-    height: 226px;
-    width: 80px;
+    height: 247px;
+    width: 110px;
     /* position: absolute; */
     right: 0px;
     /* margin-top: 32%; */
 }
 .middleImage {
-        background-image: url('./Images/Header/seaWave.png');
+        background-image: url('./Images/Header/Himalaya.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        height: 252px;
-   
+        height: 252px;   
+}
+.sealordshivaImage{
+    height: 252px;
+}
+/* link */
+.link {
+    font-size: 13px;
 }
 /* header about */
     .Headeraboutcontainer{
@@ -2124,14 +2244,14 @@ a:Visited{
     }
     /* Payments */
     #AccountHolderName {
-        font-size: 16px;
+        font-size: 23px;
     }
 
     #QrImage {
-        width: 34%;
+        width: 48%;
     }
     #AccountDetails {
-        font-size: 14px;
+        font-size: 18px;
         line-height: 0px;
     }
     #PaymentMiddlePara {

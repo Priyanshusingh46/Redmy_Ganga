@@ -7,7 +7,7 @@ function Fotter(){
     return (
         <div className ="Fotter-outer">
             <div className="fotteraddress">
-                <h1 id ="headingFotter">Contact</h1>
+                <h1 id ="headingFotter">Contact US</h1>
 
                 <span className="span1">93, P.O. Swargashram, Near SBI Hostel, laxman jhula</span><br></br>
                 <span className="span1"> Uttrakhand-249304, India </span><br></br>
