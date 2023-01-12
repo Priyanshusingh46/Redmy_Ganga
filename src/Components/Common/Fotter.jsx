@@ -28,7 +28,7 @@ function Fotter(){
                 <h1 id ="headingFotter">Social Media</h1>
 
                 <div className='socialImageContainer'>
-                <a href="https://wa.me/9997483438"class="whatsapp_float"target="_blank"rel="noopener noreferrer">
+                <a href="https://wa.me/+9199974 83438"class="whatsapp_float"target="_blank"rel="noopener noreferrer">
                     <img id="imagesocial" src={whatsapp} alt="error" />
                 </a>
                     <a href="https://www.instagram.com/uniyalmahendra/">
