@@ -1750,6 +1750,9 @@ a:Visited{
     right: 0px;
     /* margin-top: 18%; */
 }
+#kalashimage {
+    margin-left: 0px;
+}
 .middleImage {
     background-image: url('./Images/Header/Himalaya.jpg');
     background-size: cover;
