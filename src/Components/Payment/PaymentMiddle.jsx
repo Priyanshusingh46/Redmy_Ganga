@@ -1,5 +1,6 @@
 import React from 'react'
 import Qr from '../../Images/Payment/Qr.png'
+import Qr1 from "../../Images/Payment/QR1.jpeg"
 function PaymentMiddle() {
   return (
     <div className='PaymentMiddleContainer'>
@@ -18,7 +19,7 @@ function PaymentMiddle() {
             <div className='QrPartContainer'>
                 <h2 id="AccountHolderName">Mahendra uniyal</h2>
                 <div className='QrImageContainer'>
-                <img id="QrImage"src={Qr} alt="error" />
+                <img id="QrImage"src={Qr1} alt="error" />
                 </div>
             </div>
 
@@ -37,9 +38,9 @@ function PaymentMiddle() {
           <div className='PaymentMiddleRightPartBottom'>
             <h3>Direct to Bank Account</h3>
             <p id="AccountDetails">Beneficiary name : Mahendra Uniyal</p>
-              <p id="AccountDetails">Account no : 0836001500019113</p>
-              <p id="AccountDetails">IFSC code : PUNB0083600</p>
-             <p id="AccountDetails"> Bank : Punjab National Bank</p>
+              <p id="AccountDetails">Account no : 1070104000133913</p>
+              <p id="AccountDetails">IFSC code : IBKL0001070</p>
+             <p id="AccountDetails"> Bank : IDBI Bank</p>
           </div>
 
         </div>
